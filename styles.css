@@ -151,6 +151,10 @@ ul.skills {
   background: #0399ff;
 }
 
+.skills li:hover {
+  transform: scale(1.10);
+}
+
 ul.hobbies {
   padding: 0;
   text-align: center;
@@ -167,6 +171,10 @@ ul.hobbies {
 
 .hobbies li:nth-child(odd) {
   background: #0399ff;
+}
+
+.hobbies li:hover {
+  transform: scale(1.10);
 }
 
 footer {
